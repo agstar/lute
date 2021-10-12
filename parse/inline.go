@@ -14,10 +14,10 @@ import (
 	"bytes"
 	"strconv"
 
-	"github.com/88250/lute/ast"
-	"github.com/88250/lute/html"
-	"github.com/88250/lute/lex"
-	"github.com/88250/lute/util"
+	"github.com/agstar/lute/ast"
+	"github.com/agstar/lute/html"
+	"github.com/agstar/lute/lex"
+	"github.com/agstar/lute/util"
 )
 
 // parseInline 解析并生成块节点 block 的行级子节点。

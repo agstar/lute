@@ -11,8 +11,8 @@
 package parse
 
 import (
-	"github.com/88250/lute/ast"
-	"github.com/88250/lute/lex"
+	"github.com/agstar/lute/ast"
+	"github.com/agstar/lute/lex"
 )
 
 // 判断块引用（>）是否开始。

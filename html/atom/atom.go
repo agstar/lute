@@ -53,7 +53,7 @@ func match(s string, t []byte) bool {
 }
 
 // Lookup returns the atom whose name is s. It returns zero if there is no
-// such atom. The lookup is case sensitive.
+// such atom. The lookup is case-sensitive.
 func Lookup(s []byte) Atom {
 	if len(s) == 0 || len(s) > maxAtomLen {
 		return 0

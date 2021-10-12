@@ -13,9 +13,9 @@ package test
 import (
 	"testing"
 
-	"github.com/88250/lute"
-	"github.com/88250/lute/ast"
-	"github.com/88250/lute/parse"
+	"github.com/agstar/lute"
+	"github.com/agstar/lute/ast"
+	"github.com/agstar/lute/parse"
 )
 
 var inlineTests = []parseTest{

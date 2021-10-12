@@ -15,12 +15,12 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/88250/lute/html"
+	"github.com/agstar/lute/html"
 
-	"github.com/88250/lute/ast"
-	"github.com/88250/lute/lex"
-	"github.com/88250/lute/parse"
-	"github.com/88250/lute/util"
+	"github.com/agstar/lute/ast"
+	"github.com/agstar/lute/lex"
+	"github.com/agstar/lute/parse"
+	"github.com/agstar/lute/util"
 )
 
 // VditorSVRenderer 描述了 Vditor Split-View DOM 渲染器。

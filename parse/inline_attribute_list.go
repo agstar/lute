@@ -14,9 +14,9 @@ import (
 	"bytes"
 	"strings"
 
-	"github.com/88250/lute/ast"
-	"github.com/88250/lute/html"
-	"github.com/88250/lute/util"
+	"github.com/agstar/lute/ast"
+	"github.com/agstar/lute/html"
+	"github.com/agstar/lute/util"
 )
 
 // IALStart 判断 kramdown 块级内联属性列表（{: attrs}）是否开始。

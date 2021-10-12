@@ -13,8 +13,8 @@ package test
 import (
 	"testing"
 
-	"github.com/88250/lute"
-	"github.com/88250/lute/render"
+	"github.com/agstar/lute"
+	"github.com/agstar/lute/render"
 )
 
 var sanitizerTests = []parseTest{

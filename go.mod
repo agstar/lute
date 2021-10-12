@@ -1,12 +1,13 @@
-module github.com/88250/lute
+module github.com/agstar/lute
 
 go 1.12
 
 require (
+	github.com/88250/lute v1.7.3
 	github.com/alecthomas/chroma v0.9.2
 	github.com/alecthomas/colour v0.1.0 // indirect
 	github.com/alecthomas/repr v0.0.0-20200325044227-4184120f674c // indirect
-	github.com/gopherjs/gopherjs v0.0.0-20210619140742-4878d31a93eb
+	github.com/gopherjs/gopherjs v0.0.0-20210619142842-05447a1fa367
 	github.com/kr/text v0.2.0 // indirect
 	github.com/niemeyer/pretty v0.0.0-20200227124842-a10e7caefd8e // indirect
 	github.com/sergi/go-diff v1.1.0 // indirect

@@ -13,7 +13,7 @@ package test
 import (
 	"testing"
 
-	"github.com/88250/lute"
+	"github.com/agstar/lute"
 )
 
 var debugTests = []parseTest{
@@ -32,7 +32,7 @@ var debugTests = []parseTest{
 	// Auto link `.app` domain suffix https://github.com/Vanessa219/vditor/issues/936
 	{"52", "https://netlify.app/", "<p><a href=\"https://netlify.app/\">https://netlify.app/</a></p>\n"},
 
-	// 表格和 Setext 标题解析冲突问题 https://github.com/88250/lute/issues/110
+	// 表格和 Setext 标题解析冲突问题 https://github.com/agstar/lute/issues/110
 	{"51", "|   foo   | \n| :-----: |\n|   bar   |\n=======\nbaz\n", "<table>\n<thead>\n<tr>\n<th align=\"center\">foo</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td align=\"center\">bar</td>\n</tr>\n</tbody>\n</table>\n<p>=======<br />\nbaz</p>\n"},
 
 	// 表格解析异常 https://github.com/88250/lute/issues/52
@@ -108,7 +108,7 @@ var debugTests = []parseTest{
 	{"9", "<http:\n", "<p>&lt;http:</p>\n"},
 	{"8", "<\n", "<p>&lt;</p>\n"},
 	{"7", "|||\n|||\n", "<p>|||<br />\n|||</p>\n"},
-	{"6", "[https://github.com/88250/lute](https://github.com/88250/lute)\n", "<p><a href=\"https://github.com/88250/lute\">https://github.com/88250/lute</a></p>\n"},
+	{"6", "[https://github.com/agstar/lute](https://github.com/agstar/lute)\n", "<p><a href=\"https://github.com/agstar/lute\">https://github.com/agstar/lute</a></p>\n"},
 	{"5", "[1\n--\n", "<h2 id=\"-1\">[1</h2>\n"},
 	{"4", "[1 \n", "<p>[1</p>\n"},
 	{"3", "- -\r\n", "<ul>\n<li>\n<ul>\n<li></li>\n</ul>\n</li>\n</ul>\n"},

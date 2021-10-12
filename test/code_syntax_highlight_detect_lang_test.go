@@ -17,7 +17,7 @@ import (
 )
 
 func TestCodeSyntaxHighlightDetectLang(t *testing.T) {
-	// 围栏代码块自动探测语言 https://github.com/88250/lute/issues/22
+	// 围栏代码块自动探测语言 https://github.com/agstar/lute/issues/22
 
 	luteEngine := lute.New()
 	luteEngine.SetCodeSyntaxHighlightDetectLang(true)

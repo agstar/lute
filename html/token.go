@@ -7,7 +7,7 @@ package html
 import (
 	"bytes"
 	"errors"
-	"github.com/88250/lute/util"
+	"github.com/agstar/lute/util"
 	"io"
 	"strconv"
 	"strings"

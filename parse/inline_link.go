@@ -13,10 +13,10 @@ package parse
 import (
 	"unicode/utf8"
 
-	"github.com/88250/lute/html"
+	"github.com/agstar/lute/html"
 
-	"github.com/88250/lute/lex"
-	"github.com/88250/lute/util"
+	"github.com/agstar/lute/lex"
+	"github.com/agstar/lute/util"
 )
 
 func (context *Context) parseInlineLinkDest(tokens []byte) (passed, remains, destination []byte) {

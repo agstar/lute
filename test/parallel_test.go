@@ -15,7 +15,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/88250/lute"
+	"github.com/agstar/lute"
 )
 
 func TestParallel(t *testing.T) {

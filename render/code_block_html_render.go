@@ -14,13 +14,13 @@ package render
 
 import (
 	"bytes"
-	"github.com/88250/lute/html"
+	"github.com/agstar/lute/html"
 	"go/format"
 	"strings"
 
-	"github.com/88250/lute/ast"
-	"github.com/88250/lute/lex"
-	"github.com/88250/lute/util"
+	"github.com/agstar/lute/ast"
+	"github.com/agstar/lute/lex"
+	"github.com/agstar/lute/util"
 
 	"github.com/alecthomas/chroma"
 	chromahtml "github.com/alecthomas/chroma/formatters/html"

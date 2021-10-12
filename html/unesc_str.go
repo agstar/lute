@@ -11,8 +11,8 @@
 package html
 
 import (
-	"github.com/88250/lute/lex"
-	"github.com/88250/lute/util"
+	"github.com/agstar/lute/lex"
+	"github.com/agstar/lute/util"
 	"strconv"
 	"strings"
 	"unicode/utf8"

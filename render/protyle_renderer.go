@@ -17,11 +17,11 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/88250/lute/ast"
-	"github.com/88250/lute/html"
-	"github.com/88250/lute/lex"
-	"github.com/88250/lute/parse"
-	"github.com/88250/lute/util"
+	"github.com/agstar/lute/ast"
+	"github.com/agstar/lute/html"
+	"github.com/agstar/lute/lex"
+	"github.com/agstar/lute/parse"
+	"github.com/agstar/lute/util"
 )
 
 // BlockRenderer 描述了 Protyle WYSIWYG Block DOM 渲染器。

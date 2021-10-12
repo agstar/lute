@@ -15,9 +15,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/88250/lute"
-	"github.com/88250/lute/parse"
-	"github.com/88250/lute/render"
+	"github.com/agstar/lute"
+	"github.com/agstar/lute/parse"
+	"github.com/agstar/lute/render"
 )
 
 type formatTest struct {

@@ -13,9 +13,9 @@ package test
 import (
 	"testing"
 
-	"github.com/88250/lute/ast"
+	"github.com/agstar/lute/ast"
 
-	"github.com/88250/lute"
+	"github.com/agstar/lute"
 )
 
 var md2VditorDOMTests = []parseTest{

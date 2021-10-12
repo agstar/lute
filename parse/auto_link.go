@@ -12,12 +12,12 @@ package parse
 
 import (
 	"bytes"
-	"github.com/88250/lute/html"
+	"github.com/agstar/lute/html"
 	"unicode/utf8"
 
-	"github.com/88250/lute/ast"
-	"github.com/88250/lute/lex"
-	"github.com/88250/lute/util"
+	"github.com/agstar/lute/ast"
+	"github.com/agstar/lute/lex"
+	"github.com/agstar/lute/util"
 )
 
 func (t *Tree) parseGFMAutoEmailLink(node *ast.Node) {
